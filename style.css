@@ -1,0 +1,360 @@
+/* header */
+header {
+    height : 100px;
+    border-bottom:1px solid #777;
+}
+
+.inner-container {
+    width : 1040px;
+    margin : 0 auto;
+    position : relative;
+}
+
+header #logo {
+    position : absolute;
+    left : 1px;
+    top : 34px;
+    font-size : 27px;
+    font-weight : bold;
+}
+
+header .btn-application {
+    position : absolute;
+    right : 0px;
+    top : 35px;
+    display : block;
+    width : 160px;
+    height : 30px;
+    line-height:30px;
+    text-align : center;
+    border : 1px solid black;
+    font-size : 13px;
+}
+
+header .christmasedition {
+    position : absolute;
+    right : 200px;
+    top : 35px;
+    display : block;
+    width : 160px;
+    height : 30px;
+    line-height:30px;
+    text-align : center;
+    border : 1px solid black;
+    font-size : 13px;
+}
+
+header nav {
+    position : absolute;
+    left : 50%;
+    top : 35px;
+    width : 600px;
+    text-align : center;
+    margin-left:-300px;
+}
+
+header nav a {
+    margin : 0 8px;
+    color : black;
+}
+
+header .inner-container {
+    width : auto;
+    margin : 0 100px;
+}
+
+
+/* main */
+
+main .inner-container {
+    height : 500px;
+}
+
+main .mimi2 {
+    height : 670px;
+    background-color : rgb(250, 250, 250);
+    position : relative;
+    top : -180px;
+}
+
+.youngsang {
+    position : relative;
+    width : 1900px;
+    height : 545px;
+    background : black;
+}
+
+main .mungu .mungu1 {
+    font-size : 25px; 
+    position:relative;
+    margin : 0px auto ;
+    text-align : center;
+    padding-top : 55px;
+}
+
+main .mungu .mungu2 {
+    font-size : 14px;
+    line-height: 24px;
+    position : relative;
+    margin : 30px auto;
+    margin : 25px;
+    text-align : center;
+}
+
+.box {
+    display : flex;
+    justify-content : center;
+    margin-bottom : 70px;
+    margin-top : -260px;
+}
+
+.boxone {
+    background-color : rgb(46, 64, 165);
+    width : 316px;
+    height : 190px;
+    color : white;
+    padding-top : 25px;
+    padding-left : 30px;
+    font-size : 14px;
+    line-height : 23px;
+}
+
+.beumonechick1, .gowukgoajung1, .hakgosanghoar1 {
+    position: relative;
+    top : 9px;
+    font-size : 13.5px;
+    line-height: 22px;
+}
+.beumonechick {
+    position : relative;
+    top : 5px;
+    font-size : 16px;
+}
+.gowukgoajung {
+    position : relative;
+    top : 5px;
+    font-size : 16px;
+}
+.hakgosanghoar {
+    position : relative;
+    top : 5px;
+    font-size : 16px;
+}
+
+.boxtwo {
+    background-color : rgb(18, 18, 87);
+    width : 316px;
+    height : 190px;
+    color : white;
+    padding-top : 25px;
+    padding-left : 30px;
+}
+
+.boxthree {
+    background-color : rgb(46, 64, 165);
+    width : 316px;
+    height : 190px;
+    color : white;
+    padding-top : 25px;
+    padding-left : 30px;
+}
+
+.jasehi1, .jasehi2, .jasehi3   {
+    position : relative;
+    top : 70px;
+    right : 10px;
+    font-size : 13px;
+    font-weight: 1000;
+}
+
+.juljulone, .juljultwo, .juljulthree, .juljulfour, .juljulfive, .juljulsix {
+    display : flex;
+    font-size : 14px;
+}
+
+.juljulall {
+    position : relative;
+    margin-top : -20px;
+}
+
+.gongzisahangone, .gongzisahangtwo, .gongzisahangthree, .unlonbodoone, .unlonbodoonetwo, .unlonbodoonethree {
+    color : rgb(151, 151, 151);
+    margin-right : 10px;
+}
+
+.dateone, .datetwo, .datethree, .datefour, .datefive, .datesix {
+    position : absolute;
+    right : 10px;
+    color : rgb(92, 92, 92);
+    font-size : 12px;
+}
+
+.mungu3 {
+    text-align: center;
+    position : relative;
+    top : 75px;
+    font-size : 25px;
+    font-weight : bold;
+}
+
+.mungu4 {
+    position : relative;
+    top : 100px;
+    text-align: center;
+    font-size : 14px;
+    margin-top : -10px;
+}
+
+.imgboxone {
+    position : absolute;
+    top : 205px;
+    right : 710px;
+    width : 327px;
+    height : 250px;
+}
+
+.imgboxtwo {
+    position : absolute;
+    top : 205px;
+    right : 355px;
+    width : 327px;
+    height : 250px;
+}
+
+.imgboxthree {
+    position : absolute;
+    top : 205px;
+    right : 3px;
+    width : 327px;
+    height : 250px;
+}
+
+/* .imgmunguall {
+    position : absolute;
+    right : 710px;
+    top : 391px;
+    display: flex;
+    padding : 0 100px;
+} */
+
+.imgmunguboxone {
+    position : absolute;
+    right : 710px;
+    top : 391px;
+}
+
+.imgmunguboxtwo {
+    position : absolute;
+    left : 358px;
+    top : 391px;
+}
+
+.imgmunguboxthree {
+    position : absolute;
+    left : 710px;
+    top : 391px;
+}
+
+.imgmunguboxone, .imgmunguboxtwo, .imgmunguboxthree  {
+    background : white;
+    width : 325px;
+    height : 185px;
+    border-right : 1px solid rgb(233, 233, 233);
+    border-left : 1px solid rgb(233, 233, 233);
+    border-bottom : 1px solid rgb(233, 233, 233);
+}
+
+.imgmunguboxtwo {
+    position : absolute;
+    right : -352px;
+}
+
+.imgmunguboxthree {
+    position : absolute;
+    right : -702px;
+}
+
+
+.imgmunguonemain, .imgmungutwomain, .imgmunguthreemain {
+    padding : 16px;
+    font-weight: bold;
+    font-size : 14.5px;
+    line-height: 20px;
+}
+
+.imgmunguonesub, .imgmungutwosub, .imgmunguthreesub {
+    font-size : 12px;
+    padding : 0 16px;
+    margin-top : -7px;
+    line-height: 21px;
+}
+
+.imgmunguonedate, .imgmungutwodate, .imgmunguthreedate {
+    font-size : 11px;
+    font-weight : bold;
+    color : rgb(75, 75, 75);
+    position : absolute;
+    right : 247px;
+    top : 135px;
+}
+
+/* footer */
+
+#sitemap {display:flex;}
+
+#sitemap a {color :#fff;}
+
+#sitemap > li {
+    flex-grow:1;
+    font-weight: 1000;  
+    
+}
+
+#sitemap ul {
+    margin-top:10px;
+    font-size : 12.5px;
+    line-height: 1.9;
+}
+
+.bottomicon {
+    position : absolute;
+    top : 310px;
+    right : 450px;
+}
+
+.icon1, .icon2, .icon3 {
+    margin : 0 10px;
+    display : inline;
+}
+
+footer {
+    background-color: rgb(18, 18, 87);
+    padding : 30px 0;
+    height : 400px;
+    position : absolute;
+    top : 2141px;
+    width : 1900px;
+}
+
+footer .bottom {
+    display : inline-block;
+    display : flex;
+    color : white;
+    font-size : 11px;
+    position : relative;
+    right : 170px;
+    top : 365px;
+    width : 701px;  
+}
+
+.bottomline {
+    border-bottom : 1px solid rgb(62, 62, 119);
+    position : relative;
+    bottom : -35px;
+}
+
+.bottomone, .bottomtwo, .bottomthree, .bottomfour, .bottomfive {
+    margin-right : 4px;
+    margin-left : 4px;
+}
+
