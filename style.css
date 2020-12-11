@@ -109,7 +109,7 @@ main .mungu .mungu2 {
 }
 
 .boxone {
-    background-color : rgb(46, 64, 165);
+    background-color : #bd2c32  ;
     width : 316px;
     height : 190px;
     color : white;
@@ -142,7 +142,7 @@ main .mungu .mungu2 {
 }
 
 .boxtwo {
-    background-color : rgb(18, 18, 87);
+    background-color : #8a2c32 ;
     width : 316px;
     height : 190px;
     color : white;
@@ -151,7 +151,7 @@ main .mungu .mungu2 {
 }
 
 .boxthree {
-    background-color : rgb(46, 64, 165);
+    background-color :  #bd2c32;
     width : 316px;
     height : 190px;
     color : white;
@@ -300,7 +300,9 @@ main .mungu .mungu2 {
 
 /* footer */
 
-#sitemap {display:flex;}
+#sitemap {
+    display:flex;
+}
 
 #sitemap a {color :#fff;}
 
@@ -328,7 +330,7 @@ main .mungu .mungu2 {
 }
 
 footer {
-    background-color: rgb(18, 18, 87);
+    background-color: #5d0e0e;
     padding : 30px 0;
     height : 400px;
     position : absolute;
