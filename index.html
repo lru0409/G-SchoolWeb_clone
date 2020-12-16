@@ -127,6 +127,26 @@
 					</div>
 				</div>
 			</div>
+		
+			<div class = "inner-container">
+              <div style = "overflow: hidden">
+			    <div class = "imageslider">
+				  <div class = "inner">
+					<img src = "resource/slide_sample1.jpg"/>
+				  </div>
+				  <div class = "inner">
+					<img src = "resource/slide_sample2.jpg"/>
+				  </div>
+				  <div class = "inner">
+					<img src = "resource/slide_sample3.jpg"/>
+				  </div>
+			    </div>
+			   </div>
+			    <button class = "buttonone">1</button>
+				<button class = "buttontwo">2</button>
+				<button class = "buttonthree">3</button>
+			</div>
+
 		</main>	
 		<footer>
 			<div class="inner-container">
@@ -215,4 +235,20 @@
 			</div>
 		</footer>
 </body>
+
+<script>
+
+	document.querySelector('.buttonone').addEventListener('click', function(){
+        document.querySelector('.imageslider').style.transform ='translate(0vw)';
+    });
+
+    document.querySelector('.buttontwo').addEventListener('click', function(){
+        document.querySelector('.imageslider').style.transform ='translate(-100vw)';
+    });
+
+    document.querySelector('.buttonthree').addEventListener('click', function(){
+        document.querySelector('.imageslider').style.transform ='translate(-200vw)';
+    }); 
+</script>
+
 </html>

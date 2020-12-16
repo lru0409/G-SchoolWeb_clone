@@ -75,11 +75,12 @@ main .mimi2 {
     background-color : rgb(250, 250, 250);
     position : relative;
     top : -180px;
+    margin-bottom : -100px;
 }
 
 .youngsang {
     position : relative;
-    width : 1900px;
+    width : auto    ;
     height : 545px;
     background : black;
 }
@@ -307,9 +308,7 @@ main .mungu .mungu2 {
 #sitemap a {color :#fff;}
 
 #sitemap > li {
-    flex-grow:1;
-    font-weight: 1000;  
-    
+    flex-grow:1;  
 }
 
 #sitemap ul {
@@ -331,11 +330,12 @@ main .mungu .mungu2 {
 
 footer {
     background-color: #5d0e0e;
-    padding : 30px 0;
+    padding-top : 30px 0;
     height : 400px;
-    position : absolute;
-    top : 2141px;
-    width : 1900px;
+    position : relative;
+    top : 100px;
+    width : auto;
+    padding-top : 30px;
 }
 
 footer .bottom {
@@ -344,8 +344,8 @@ footer .bottom {
     color : white;
     font-size : 11px;
     position : relative;
-    right : 170px;
-    top : 365px;
+    left : 180px;
+    top : 100px;
     width : 701px;  
 }
 
@@ -358,5 +358,42 @@ footer .bottom {
 .bottomone, .bottomtwo, .bottomthree, .bottomfour, .bottomfive {
     margin-right : 4px;
     margin-left : 4px;
+}
+
+/* 이미지 슬라이더 */
+
+.imageslider {
+    width : 300vw;
+    transition : transform 0.5s;
+    position : relative;
+}
+
+.inner {
+   width : 100vw;
+   float : left;
+}
+
+.buttonone, .buttontwo, .buttonthree {
+    border-radius : 100%;
+    background : #000000;
+    width : 30px;
+    height: 30px;
+    color : white;
+    text-align: center;
+    border : 2px solid white;
+    position : absolute;
+    top : 460px;
+}
+
+.buttonone {
+    left : 450px;
+}
+
+.buttontwo {
+    left : 500px;
+}
+
+.buttonthree {
+    left : 550px;
 }
 
